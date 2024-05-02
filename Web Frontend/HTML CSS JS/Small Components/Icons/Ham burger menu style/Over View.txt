@@ -1,0 +1,2 @@
+This is a simple menu icon which is become a cross icon when its click and normally stay a hamburger icon.
+the tranformation is a smooth transition.
