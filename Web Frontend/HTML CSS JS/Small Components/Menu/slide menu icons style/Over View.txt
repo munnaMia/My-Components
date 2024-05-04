@@ -1,0 +1,1 @@
+this is a simple menu whice slide and open from left and with a sliding animaintion.
