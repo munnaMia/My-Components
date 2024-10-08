@@ -1,4 +1,3 @@
-
 func main() {
 	values := []int{2,23433,34,3234,3,2234343,5,3223434,234,234,23423456,2323423,2344,23456}
 	fmt.Println(sums(values...)) // Spread operator here
