@@ -1,0 +1,90 @@
+Application Architecture (Client-Server Architecture):
+======================================================
+    1. Monolithic : This architecture refers to a software application design
+                    where all components are tightly coupled and integrated into 
+                    a single and self-contained unit. (Imaging a large building 
+                    constructed from a single piece of stone.)
+
+    =================================
+    |       User Interface          |
+    |                               |
+    |       Business login          |
+    |                               |
+    |       Data Interface          |
+    |                               |
+    |       Database                |
+    |                               |
+    =================================
+
+    Key Characteristcs:
+    -------------------
+        1. Single Codebase
+        2. Centerlized Deployment
+        3. Shared Database
+        4. Tight Coupling
+    
+    Advantage:
+    ----------
+        1. Simplicity : Easy to understand deploy initialy.
+        2. Maintainability : Easiar to maintain due to a single Codebase and Centerlized Deployment.
+        3. Cost-Effective : Lower initial development and development cost.
+        4. Performance : Can be faster for simple application due to tight coupling and shared resources.
+    
+    Disadvantage:
+    -------------
+        1. Scalability : Difficult to scale individual feature without impacting the entier application
+        2. Maintainability : Can became Difficult to maintain as the application grows and become more complex
+        3. Agility : Difficult to implement new feature or updates without affacting the entier application
+        4. Single Point of Faliure : If the application crash the entier application down.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    2. 2-tier : This is a software architecture pattern that divides the application
+                into two distinct layers:
+                    (a) Presentation tier(Client) : This layer handles the user Interface and interacts with user directly.
+                    (b) Data tier(Server) : This layer handles Business login, data storage and processing.
+
+    =============
+    |   Server  |
+    =============
+    |
+    |====> Client 1
+    |====> Client 2
+    |====> Client 3
+    |====> Client 4
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    3. N-tier
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    4. Modular Monolithic
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    5. Microservice
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    6. Event Driven
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    7. Cloud Native
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    8. Serverless
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    9. ETC
+
