@@ -1,0 +1,68 @@
+1. Data
+- Definition: Raw facts and figures that have no context or meaning on their own.
+- Examples: Numbers, words, measurements, observations, etc.
+- Example in Database: “John”, “25”, “Engineer” – all are separate pieces of data but don’t yet provide useful meaning.
+
+2. Information
+- Definition: Processed data that has been organized and interpreted, giving it meaning and context.
+- Examples: A customer’s full profile, a sales report, or any meaningful arrangement of data.
+- Example in Database: “John is a 25-year-old Engineer” is now useful information.
+
+3. Database
+- Definition: A structured collection of data, stored and managed electronically, which allows for easy retrieval, management, and updating.
+- Examples: MySQL, PostgreSQL, Oracle, Microsoft SQL Server.
+- Purpose: To efficiently store large amounts of data, maintain its integrity, and provide mechanisms for querying and analyzing it.
+
+4. Database Management System (DBMS)
+- Definition: Software that interacts with databases, providing tools to create, query, update, and manage databases.
+- Examples: MySQL, MongoDB, PostgreSQL.
+- Function: Handles tasks like storing, retrieving, and managing the data within a database, ensuring data integrity and security.
+
+5. Record (or Row)
+- Definition: A single entry in a database table that contains data about a specific item.
+- Examples: A row representing a customer, with fields like name, age, and occupation.
+  
+6. Field (or Column)
+- Definition: A specific attribute or property of the data stored in a record.
+- Examples: Fields like "Name", "Age", and "Occupation" in a database table for customers.
+
+7. Primary Key
+- Definition: A unique identifier for each record in a database table.
+- Purpose: Ensures that each record can be uniquely identified, preventing duplicates.
+- Example: A "Customer ID" field that is unique for every customer.
+
+8. Foreign Key
+- Definition: A field in one table that links to the primary key of another table.
+- Purpose: Establishes relationships between tables in a relational database.
+- Example: "Order ID" in an "Orders" table that refers to a "Customer ID" in the "Customers" table.
+
+9. Schema
+- Definition: The structure of the database that defines how data is organized, including tables, fields, and relationships.
+- Purpose: Provides a blueprint for the database, detailing its design.
+
+10. Query
+- Definition: A request made to the database to retrieve or manipulate data.
+- Example: SQL queries such as `SELECT * FROM customers WHERE age > 25`.
+
+11. Normalization
+- Definition: The process of organizing data to minimize redundancy and dependency.
+- Purpose: Ensures efficient storage and improves data integrity.
+- Example: Splitting a large table into smaller tables and establishing relationships to reduce duplicate data.
+
+12. ACID Properties
+- Definition: A set of properties (Atomicity, Consistency, Isolation, Durability) that ensure reliable processing of database transactions.
+  - Atomicity: Ensures that a transaction is all-or-nothing.
+  - Consistency: Ensures that the database remains in a valid state.
+  - Isolation: Ensures that transactions don’t interfere with each other.
+  - Durability: Ensures that once a transaction is committed, it will be permanent even if there’s a system failure.
+
+13. Indexing
+- Definition: A technique used to speed up the retrieval of data by creating an index for faster lookup.
+- Example: Indexing the "Employee ID" field to quickly search for an employee in a large database.
+
+14. Relationships
+- Definition: Connections between different tables in a relational database.
+- Types:
+  - One-to-One: One record in a table is linked to one record in another table.
+  - One-to-Many: One record in a table can be linked to multiple records in another table.
+  - Many-to-Many: Multiple records in one table are linked to multiple records in another table.
