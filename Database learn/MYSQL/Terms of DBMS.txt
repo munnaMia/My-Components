@@ -51,10 +51,10 @@
 
 12. ACID Properties
 - Definition: A set of properties (Atomicity, Consistency, Isolation, Durability) that ensure reliable processing of database transactions.
-  - Atomicity: Ensures that a transaction is all-or-nothing.
-  - Consistency: Ensures that the database remains in a valid state.
-  - Isolation: Ensures that transactions don’t interfere with each other.
-  - Durability: Ensures that once a transaction is committed, it will be permanent even if there’s a system failure.
+- Atomicity: Ensures that a transaction is all-or-nothing.
+- Consistency: Ensures that the database remains in a valid state.
+- Isolation: Ensures that transactions don’t interfere with each other.
+- Durability: Ensures that once a transaction is committed, it will be permanent even if there’s a system failure.
 
 13. Indexing
 - Definition: A technique used to speed up the retrieval of data by creating an index for faster lookup.
@@ -63,6 +63,6 @@
 14. Relationships
 - Definition: Connections between different tables in a relational database.
 - Types:
-  - One-to-One: One record in a table is linked to one record in another table.
-  - One-to-Many: One record in a table can be linked to multiple records in another table.
-  - Many-to-Many: Multiple records in one table are linked to multiple records in another table.
+- One-to-One: One record in a table is linked to one record in another table.
+- One-to-Many: One record in a table can be linked to multiple records in another table.
+- Many-to-Many: Multiple records in one table are linked to multiple records in another table.
