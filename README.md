@@ -2,6 +2,7 @@
 
 - Database
     - MySQL
+    - SQL
 - Programming Snippets
     - Golang code sample
     - Python Example
